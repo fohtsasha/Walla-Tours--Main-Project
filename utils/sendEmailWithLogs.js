@@ -24,8 +24,8 @@ async function sendEmailWithLogs(logFilePath, subject = '📊 Walla Tours Test R
   }
 
   const transporter = nodemailer.createTransport({
-    host: 'send.smtp.com',
-    port: 25,
+    host: '****.****.***',
+    port: **,
     secure: false,
     tls: { rejectUnauthorized: false },
     socketTimeout: 10000,
